@@ -4,7 +4,7 @@ mkdir -p /alist/config/temp
 cat >/alist/config/config.json <<EOF
 {
   "address": "0.0.0.0",
-  "port": $PORT,
+  "port": 443,
   "assets": "/",
   "database": {
     "type": "$ADATABASE",
